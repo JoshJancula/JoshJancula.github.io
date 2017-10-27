@@ -35,6 +35,8 @@ body {
 	vertical-align: middle;
 	word-spacing: 10px;
 	float: right;
+	text-decoration: none;
+	color: #77777;
 
 }
 
@@ -42,7 +44,7 @@ body {
 
 .wrapper {
 	clear: both;
-	background-image: url("assets/images/stonehaven.png");
+	background-image: url("../images/stonehaven.png");
 	background-color: #F9E79F;
 	height: 635px;
 	border-top: 10px solid #dddddd;
