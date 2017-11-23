@@ -14,6 +14,9 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+<!-- firebase link -->
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   
 </head>
@@ -50,7 +53,7 @@
           </div>
           <div class="row">
 
-            <form action="mailto:josh@jancula.com" method="post" enctype="multipart/form-data" id=contact-form">
+            <form id="contact-form">
               <ul>
                 <li>
                   <label for="name">Name</label>
@@ -65,7 +68,7 @@
                   <textarea id="message" name="message" required="required"></textarea>
                 </li>
               </ul>
-              <input type="submit">
+              <input type="submit" value="Send Email" name="submit" id="submitMessage">
             </form>
 
           </div>
@@ -99,6 +102,9 @@
     </div>
   </footer>
 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+   <script type="text/javascript" src="assets/javascript/script.js"></script>
 </body>
 
 </html>  
