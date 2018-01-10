@@ -60,7 +60,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  /*position: fixed;*/
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -120,7 +120,7 @@ nav a:first-child {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   width: 100%;
 }
@@ -260,30 +260,70 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 640px) {
-  
-/*The Navbar moves under the logo*/
-  
+
+
+
+@media screen and (max-width: 449px) and (min-width: 300px) {
+
 .sidebar {
-  float: right;
-  width: 100%;
+  float: left;
+  width: 350px;
   max-width: 650px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
-  margin-left: 10%;
+  margin-left: 10px;
 }
 
 .main-section {
-  /*float: left;*/
-  width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
+  float: left;
+  width: 350px;
+  max-width: 750px;
+   padding: 30px;
+  margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
-  margin-left: 15%;
+  margin-left: 10px;
+}
+
+.auth-image {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+#footer {
+  height: 20px;
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  /*position: fixed;*/
+  bottom: 0;
+  width: 100%;
+}
+
+#masthead {
+  /*position: fixed;*/
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 10px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+#main-container {
+  padding-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 
@@ -291,21 +331,69 @@ input[type=submit] {
 
 
 
-@media screen and (max-width: 768px) and (min-width: 641px) {
 
 
 
+@media screen and (max-width: 640px) and (min-width: 450px) {
 
-
+.sidebar {
+  float: left;
+  width: 400px;
+  max-width: 650px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 10px;
 }
 
+.main-section {
+  float: left;
+  width: 400px;
+  max-width: 750px;
+   padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+}
 
+.auth-image {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 50px;
+}
 
+#footer {
+  height: 20px;
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+  bottom: 0;
+  width: 100%;
+}
 
+#masthead {
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 10px;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+#main-container {
+  padding-top: 10px;
+  margin-bottom: 10px;
 
-
-@media screen and (max-width: 968px) and (min-width: 769) {
-
+}
 
 
 }
