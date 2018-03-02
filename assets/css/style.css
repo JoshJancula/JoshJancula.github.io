@@ -366,7 +366,8 @@ input[type=submit] {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
+   background: #4aaaa5;
+
   border-top: 8px solid #4aaaa5;
   /*position: fixed;*/
   bottom: 0;
