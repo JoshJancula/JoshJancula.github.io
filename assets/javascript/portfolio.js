@@ -78,7 +78,7 @@ window.onload = function() {
         var link = results[i].link;
         var name = results[i].name;
         var summary = results[i].summary;
-        var dropdown = "<div class='btn-group'><button type='button' class='btn btn-info dropdown-toggle' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>" + name + "<span class='caret'></span></button><ul class='dropdown-menu'><li><a href='#'>" + summary + "</a></li> </ul></div>"
+        var dropdown = "<div class='btn-group'><button type='button' class='btn btn-info dropdown-toggle portfolioButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>" + name + "<span class='caret'></span></button><ul class='dropdown-menu'><li>" + summary + "</li> </ul></div>"
         var portfolioImage = $("<div class='item'>");
         // make one of these for each thing in there
         image = "<div class= 'dynamicImage'><a href='" + link + "'><img src=" + image + " class='portfolioImage'></div>";
