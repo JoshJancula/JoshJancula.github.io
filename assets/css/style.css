@@ -93,6 +93,11 @@ h1 {
  width: 100%;
 }
 
+#resumePanel, #portfolio {
+  max-height: 5500px;
+}
+
+
  
 }
 /*end tablets*/
@@ -115,6 +120,10 @@ text-align: center;
 
 #connectPanel {
   width: 100%;
+}
+
+#resumePanel, #portfolio {
+  max-height: 5500px;
 }
 
 
